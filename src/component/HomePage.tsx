@@ -5,8 +5,8 @@ function HomePage() {
     <>
       <div className="max-w-md mx-auto bg-white shadow-lg rounded-lg border border-gray-200">
         <div className="flex items-center p-4 space-x-4">
-          <div className="flex flex-col space-y-2">
-            <div className="flex space-x-2">
+          <div className="flex flex-col -space-y-2">
+            <div className="flex -space-x-2">
               <div className="w-12 h-12 rounded-full overflow-hidden border border-gray-300">
                 <Image
                   src="/image1.png"
@@ -28,7 +28,7 @@ function HomePage() {
               </div>
             </div>
 
-            <div className="flex space-x-2">
+            <div className="flex -space-x-2">
               <div className="w-12 h-12 rounded-full overflow-hidden border border-gray-300">
                 <Image
                   src="/image1.png"
